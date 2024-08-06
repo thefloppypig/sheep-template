@@ -1,0 +1,52 @@
+.sheep {
+    width: 100%;
+    text-align: center;
+}
+
+input[type="file"] {
+    color: transparent;
+    width: 85px;
+}
+
+.canvas {
+    flex-basis: 1;
+}
+
+.panel {
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    background-color: #343434;
+    display: block;
+    width: 100%;
+}
+
+.texturepicker {
+    display: inline-block;
+    width: min-content;
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.texturepicker:hover {
+    background-color: #7777dd;
+}
+
+.nav {
+    display: block;
+    width: 100%;
+}
+
+.navItem {
+    font-size: 15px;
+    font-weight: 900;
+    border: 0px;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 2px 5px;
+}
+
+.navItemSelected {
+    background-color: #7777dd;
+}
